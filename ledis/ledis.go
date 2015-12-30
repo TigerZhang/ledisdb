@@ -239,3 +239,10 @@ func (l *Ledis) CompactStore() error {
 
 	return l.ldb.Compact()
 }
+
+func (l *Ledis) Snapshot() (*store.Snapshot, error) {
+	l.wLock.Lock()
+	defer l.wLock.Unlock()
+
+	return l.ldb.NewSnapshot()
+}
