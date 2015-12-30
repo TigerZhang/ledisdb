@@ -8,8 +8,8 @@ import (
 
 	"github.com/siddontang/go/log"
 	"github.com/siddontang/go/snappy"
-	"github.com/siddontang/ledisdb/rpl"
-	"github.com/siddontang/ledisdb/store"
+	"github.com/TigerZhang/ledisdb/rpl"
+	"github.com/TigerZhang/ledisdb/store"
 )
 
 const (

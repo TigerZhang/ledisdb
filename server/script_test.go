@@ -5,8 +5,8 @@ package server
 import (
 	"fmt"
 
-	"github.com/siddontang/ledisdb/config"
-	"github.com/siddontang/ledisdb/vendor/lua"
+	"github.com/TigerZhang/ledisdb/config"
+	"github.com/TigerZhang/ledisdb/vendor/lua"
 
 	"testing"
 )

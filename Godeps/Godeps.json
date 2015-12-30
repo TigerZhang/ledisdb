@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/siddontang/ledisdb",
+	"ImportPath": "github.com/TigerZhang/ledisdb",
 	"GoVersion": "go1.5beta1",
 	"Packages": [
 		"./..."

@@ -5,8 +5,8 @@ import (
 	"path"
 
 	"github.com/boltdb/bolt"
-	"github.com/siddontang/ledisdb/config"
-	"github.com/siddontang/ledisdb/store/driver"
+	"github.com/TigerZhang/ledisdb/config"
+	"github.com/TigerZhang/ledisdb/store/driver"
 )
 
 var bucketName = []byte("ledisdb")

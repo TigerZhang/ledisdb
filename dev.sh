@@ -4,13 +4,13 @@ export LEDISTOP=$(pwd)
 export LEDISROOT="${LEDISROOT:-${LEDISTOP/\/src\/github.com\/siddontang\/ledisdb/}}"
 # LEDISTOP sanity check
 if [[ "$LEDISTOP" == "${LEDISTOP/\/src\/github.com\/siddontang\/ledisdb/}" ]]; then
-    echo "WARNING: LEDISTOP($LEDISTOP) does not contain src/github.com/siddontang/ledisdb"
+    echo "WARNING: LEDISTOP($LEDISTOP) does not contain src/github.com/TigerZhang/ledisdb"
     exit 1
 fi
 
 #default snappy and leveldb install path
 #you may change yourself
-HOMEBREW_PREFIX=$(brew --prefix 2>/dev/null)
+HOMEBREW_PREFIX=$(type brew >/dev/null 2>&1 && brew --prefix 2>/dev/null)
 if [[ ! -z "$HOMEBREW_PREFIX" ]]; then
   SNAPPY_DIR=$HOMEBREW_PREFIX/opt/snappy
   LEVELDB_DIR=$HOMEBREW_PREFIX/opt/leveldb

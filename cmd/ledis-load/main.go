@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/siddontang/ledisdb/config"
-	"github.com/siddontang/ledisdb/ledis"
+	"github.com/TigerZhang/ledisdb/config"
+	"github.com/TigerZhang/ledisdb/ledis"
 )
 
 var configPath = flag.String("config", "", "ledisdb config file")

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/siddontang/ledisdb/config"
-	"github.com/siddontang/ledisdb/server"
+	"github.com/TigerZhang/ledisdb/config"
+	"github.com/TigerZhang/ledisdb/server"
 )
 
 var configFile = flag.String("config", "", "ledisdb config file")

@@ -3,8 +3,8 @@
 package mdb
 
 import (
-	"github.com/siddontang/ledisdb/store/driver"
-	mdb "github.com/siddontang/ledisdb/vendor/gomdb"
+	"github.com/TigerZhang/ledisdb/store/driver"
+	mdb "github.com/TigerZhang/ledisdb/vendor/gomdb"
 )
 
 type Snapshot struct {

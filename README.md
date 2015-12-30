@@ -1,6 +1,6 @@
 # LedisDB 
 
-[![Build Status](https://travis-ci.org/siddontang/ledisdb.svg?branch=develop)](https://travis-ci.org/siddontang/ledisdb)
+[![Build Status](https://travis-ci.org/TigerZhang/ledisdb.svg?branch=develop)](https://travis-ci.org/TigerZhang/ledisdb)
 
 Ledisdb is a high-performance NoSQL database, similar to Redis, written in [Go](http://golang.org/). It supports many data structures including kv, list, hash, zset, set.
 
@@ -30,9 +30,9 @@ Create a workspace and checkout ledisdb source
 
     mkdir $WORKSPACE
     cd $WORKSPACE
-    git clone git@github.com:siddontang/ledisdb.git src/github.com/siddontang/ledisdb
+    git clone git@github.com:TigerZhang/ledisdb.git src/github.com/TigerZhang/ledisdb
 
-    cd src/github.com/siddontang/ledisdb
+    cd src/github.com/TigerZhang/ledisdb
 
     #install godep and be sure godep command can be found in $PATH
     go get github.com/tools/godep
@@ -60,7 +60,7 @@ but I will not guarantee the dependence compatibility.
 
     It will install leveldb at /usr/local/leveldb and snappy at /usr/local/snappy by default.
 
-    LedisDB uses the modified LevelDB for better performance. [Details.](https://github.com/siddontang/ledisdb/wiki/leveldb-source-modification)
+    LedisDB uses the modified LevelDB for better performance. [Details.](https://github.com/TigerZhang/ledisdb/wiki/leveldb-source-modification)
 
     You can easily use other LevelDB versions (like Hyper LevelDB or Basho LevelDB) instead, as long as the header files are in `include/leveldb`, not `include/hyperleveldb` or any other location.
 
@@ -134,8 +134,8 @@ If you don't use a configuration, LedisDB will use the default for you.
 ## Package Example
     
     import (
-      lediscfg "github.com/siddontang/ledisdb/config"
-      "github.com/siddontang/ledisdb/ledis"
+      lediscfg "github.com/TigerZhang/ledisdb/config"
+      "github.com/TigerZhang/ledisdb/ledis"
     )
 
     # Use Ledis's default config
@@ -163,21 +163,21 @@ LedisDB uses a proxy named [xcodis](https://github.com/siddontang/xcodis) to sup
 
 ## Benchmark
 
-See [benchmark](https://github.com/siddontang/ledisdb/wiki/Benchmark) for more.
+See [benchmark](https://github.com/TigerZhang/ledisdb/wiki/Benchmark) for more.
 
 ## Todo
 
-See [Issues todo](https://github.com/siddontang/ledisdb/issues?labels=todo&page=1&state=open)
+See [Issues todo](https://github.com/TigerZhang/ledisdb/issues?labels=todo&page=1&state=open)
 
 ## Client
 
-See [Clients](https://github.com/siddontang/ledisdb/wiki/Clients) to find or contribute LedisDB client.
+See [Clients](https://github.com/TigerZhang/ledisdb/wiki/Clients) to find or contribute LedisDB client.
 
 ## Links
 
 + [Official Website](http://ledisdb.com)
-+ [GoDoc](https://godoc.org/github.com/siddontang/ledisdb)
-+ [Server Commands](https://github.com/siddontang/ledisdb/wiki/Commands)
++ [GoDoc](https://godoc.org/github.com/TigerZhang/ledisdb)
++ [Server Commands](https://github.com/TigerZhang/ledisdb/wiki/Commands)
 
 ## Caveat
 
